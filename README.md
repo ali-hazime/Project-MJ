@@ -1,2 +1,2 @@
 # Project-MJ
-mobile game project
+mobile game project by Ali Hazime and Jacob Osbourne.
