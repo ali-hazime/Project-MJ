@@ -14,18 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animations/Player/Player_Animations.controller
-    - Assets/Prefabs.meta
-    - Assets/Prefabs/Platform Prefabs.meta
-    - Assets/Prefabs/Platform Prefabs/Platform Start.prefab
-    - Assets/Prefabs/Platform Prefabs/Platform Start.prefab.meta
-    - Assets/Prefabs/Player.prefab
-    - Assets/Prefabs/Player.prefab.meta
-    - Assets/Scenes/Jumping Prototype.unity
-    - Assets/Scenes/Platform Workshop.unity
     - 
-    m_Values: 01010101010101010101
-  RevisionSummary: set up tilemap stuff
+    m_Values: 01
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
