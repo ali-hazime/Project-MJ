@@ -202,6 +202,7 @@ MonoBehaviour:
   isJumping: 0
   maxCharge: 2
   jumpOnCD: 0
+  TESTJUMP: 0
   PlayersY: 0
   isCharging: 0
   isFalling: 0
