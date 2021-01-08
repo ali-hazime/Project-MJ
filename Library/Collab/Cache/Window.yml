@@ -14,11 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/Platform Prefabs/Platform 1.prefab
-    - Assets/Prefabs/Platform Prefabs/Start Platform.prefab
-    - Assets/Scenes/Procedural Generation Prototype.unity
     - 
-    m_Values: 01010101
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
