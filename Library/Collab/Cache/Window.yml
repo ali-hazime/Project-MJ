@@ -14,8 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Prefabs/Platform Prefabs/Platform 15.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 17.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 17.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 18.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 18.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 19.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 19.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 20.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 20.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 21.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 21.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 22.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 22.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 23.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 23.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 24.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 24.prefab.meta
+    - Assets/Prefabs/Platform Prefabs/Platform 25.prefab
+    - Assets/Prefabs/Platform Prefabs/Platform 25.prefab.meta
+    - Assets/Scenes/Platform Workshop.unity
     - 
-    m_Values: 01
+    m_Values: 010101010101010101010101010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
