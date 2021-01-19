@@ -14,85 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Plugins.meta
-    - Assets/Plugins/Android.meta
-    - Assets/Plugins/Android/androidx.annotation.annotation-1.1.0.jar
-    - Assets/Plugins/Android/androidx.annotation.annotation-1.1.0.jar.meta
-    - Assets/Plugins/Android/androidx.arch.core.core-common-2.0.0.jar
-    - Assets/Plugins/Android/androidx.arch.core.core-common-2.0.0.jar.meta
-    - Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar
-    - Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar
-    - Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.collection.collection-1.0.0.jar
-    - Assets/Plugins/Android/androidx.collection.collection-1.0.0.jar.meta
-    - Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar
-    - Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.core.core-1.2.0.aar
-    - Assets/Plugins/Android/androidx.core.core-1.2.0.aar.meta
-    - Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar
-    - Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar
-    - Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar
-    - Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar
-    - Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.fragment.fragment-1.0.0.aar
-    - Assets/Plugins/Android/androidx.fragment.fragment-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar
-    - Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar
-    - Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar
-    - Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.0.0.jar
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.0.0.jar.meta
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.0.0.aar
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.0.0.aar
-    - Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar
-    - Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar
-    - Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.print.print-1.0.0.aar
-    - Assets/Plugins/Android/androidx.print.print-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar
-    - Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar
-    - Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar.meta
-    - Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar
-    - Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar.meta
-    - Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar
-    - Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-19.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-19.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-17.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-17.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-base-17.4.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-base-17.4.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.4.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.4.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-drive-17.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-drive-17.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-games-21.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-games-21.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-nearby-17.0.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-nearby-17.0.0.aar.meta
-    - Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.2.0.aar
-    - Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.2.0.aar.meta
-    - Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.10.12.aar
-    - Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.10.12.aar.meta
     - 
-    m_Values: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-  RevisionSummary: enabled android auto-resolution
+    m_Values: 01
+  RevisionSummary: fixed issue with platform 28 creating impossible scenario
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

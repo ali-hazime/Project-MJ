@@ -10,4 +10,14 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void ShowLeaderboards()
+    {
+        PlayGamesScript.ShowLeaderboardsUI();
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }
