@@ -16,7 +16,7 @@ MonoBehaviour:
     m_Keys:
     - 
     m_Values: 01
-  RevisionSummary: fixed issue with platform 28 creating impossible scenario
+  RevisionSummary: updated main menu scene
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
