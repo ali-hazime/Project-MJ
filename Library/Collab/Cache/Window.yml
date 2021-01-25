@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Editor/Resources/Landscape.png.meta
+    - Assets/Editor/Resources/LandscapeMon.png.meta
+    - Assets/Editor/Resources/Portrait.png.meta
+    - Assets/Editor/Resources/PortraitMon.png.meta
+    - Assets/Editor/Resources/Purchase.png.meta
+    - Assets/Plugins/Android/UnityAds.aar.meta
+    - Assets/Plugins/Android/UnityAdsAndroidPlugin.aar.meta
     - 
-    m_Values: 01
+    m_Values: 0000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
-  SelectedHistoryRevision: bbd1c49e6a88d2668e00b6d20c83a8ee21740d77
+  SelectedHistoryRevision: 
   HistoryPageNumber: 0
   TabIndex: 0

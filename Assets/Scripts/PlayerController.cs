@@ -202,7 +202,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         animator.SetBool("jumpOnCooldown", false);
         jumpOnCD = false;
-        Debug.Log("JUMP OFF CD");
+      
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

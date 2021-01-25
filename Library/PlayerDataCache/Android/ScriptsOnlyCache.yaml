@@ -2,11 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AttachToPlatform
+    - AudioManager
     - ButtonController
     - CameraMovement
     - ChargeBar
     - FallingRock
     - LevelGeneration
+    - MainMenuQuit
+    - Monetization
     - MovePlatformHorz
     - MovePlatformVertical
     - PlayerController
@@ -37,16 +40,13 @@ ScriptsOnlyBuild:
     - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -73,8 +73,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
-    - Class: 60
-      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
@@ -83,6 +81,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -90,47 +90,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 690}
+      Script: {instanceID: 596}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 17954}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 18140}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 18210}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 18410}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 18772}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 19018}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 19168}
     - Class: 114
-      Script: {instanceID: 2932}
+      Script: {instanceID: 19300}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 19368}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 19454}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 19592}
     - Class: 114
-      Script: {instanceID: 3450}
+      Script: {instanceID: 19712}
     - Class: 114
-      Script: {instanceID: 3454}
+      Script: {instanceID: 19904}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 19908}
     - Class: 114
-      Script: {instanceID: 3552}
+      Script: {instanceID: 19922}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 20008}
     - Class: 114
-      Script: {instanceID: 3930}
+      Script: {instanceID: 20144}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 20418}
     - Class: 114
-      Script: {instanceID: 4926}
+      Script: {instanceID: 20504}
+    - Class: 114
+      Script: {instanceID: 21430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -172,24 +174,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 17954}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 18150}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 19018}
     - Class: 114
-      Script: {instanceID: 2932}
+      Script: {instanceID: 19168}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 19368}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 19454}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 19592}
+    - Class: 114
+      Script: {instanceID: 19712}
+    - Class: 114
+      Script: {instanceID: 39242}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -275,6 +285,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuQuit
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -341,6 +357,12 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
+      Hash: 66056c2209ff8e6b238f8b056c7eb331
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -351,6 +373,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: a325152ad9563ed900af221c132fea36
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: CoroutineExecutor
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -369,6 +397,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Monetization.dll
+    namespaceName: UnityEngine.Monetization
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: fe64a45214940b510a0ec79c96d43498
@@ -399,6 +433,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FallingRock
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -546,6 +586,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: ApplicationQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -561,6 +607,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 88e2c6f501bf5dead831a3e44c30de40
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Platform.Editor
+    className: BannerPlaceholder
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -761,7 +813,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 0fbbd580b0bf3ff3cc691fecc5a2f25b
+      Hash: 63da712230d9f8889325fd0acb37b230
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -801,8 +853,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayGamesScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Monetization
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: E:/Downloads/JumpMage.apk
+  playerPath: E:/Downloads/JumpMage.aab
