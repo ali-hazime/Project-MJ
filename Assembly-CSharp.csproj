@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SoundButtonController.cs" />
     <Compile Include="Assets\GooglePlayGames\OurUtils\PlatformUtils.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\Event.cs" />
     <Compile Include="Assets\Scripts\MainMenuQuit.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameMetadata.cs" />
     <Compile Include="Assets\Scripts\LevelGeneration.cs" />
     <Compile Include="Assets\GooglePlayGames\OurUtils\NearbyHelperObject.cs" />
+    <Compile Include="Assets\Scripts\MainMenuAudioController.cs" />
     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
     <Compile Include="Assets\Scripts\PlayerScore.cs" />
     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />

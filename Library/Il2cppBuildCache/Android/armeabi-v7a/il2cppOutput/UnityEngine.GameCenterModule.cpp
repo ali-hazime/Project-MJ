@@ -66,16 +66,6 @@ struct InterfaceActionInvoker3
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
 	}
 };
-struct InterfaceActionInvoker0
-{
-	typedef void (*Action)(void*, const RuntimeMethod*);
-
-	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		((Action)invokeData.methodPtr)(obj, invokeData.method);
-	}
-};
 
 // System.Action`1<System.Boolean>
 struct Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83;
@@ -200,7 +190,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5B615C8D64F050A4B841840469BBCCA764121BFC
 IL2CPP_EXTERN_C String_t* _stringLiteral5ECA19F316C4BF30DC6AFDC7822F68EDF20BDA1E;
 IL2CPP_EXTERN_C String_t* _stringLiteral5FE7915692E0675AD0BF063D16336FF430832152;
 IL2CPP_EXTERN_C String_t* _stringLiteral639283D378153782A27162297CA83FA8F8644102;
-IL2CPP_EXTERN_C String_t* _stringLiteral63B825085580CF7F50B31C8CDA66E3F2A35C0676;
 IL2CPP_EXTERN_C String_t* _stringLiteral697DAE71CF742F2932950075B1D260B4A087E7BA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6BCAC612B5B27E65B03977EAA66B35CF4A1AB1D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral6DD798540816CF95355537E350E0B22DB63ACF5E;
@@ -2323,8 +2312,6 @@ inline void Enumerator_Dispose_mE683D1BF66632478E016CECBA9DE67A6523204E4 (Enumer
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m8850D65592770A364D494025FF3A73E8D4D70485 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.SocialPlatforms.Impl.Leaderboard::get_loading()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Leaderboard_get_loading_m7E20F3B94746139EEAD198C212B546ABA62B8947 (Leaderboard_tD587FC5E62BF8F6CC6AC0DF1ABB55D57A60CBE2D * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor(System.String,System.String,System.Boolean,UnityEngine.SocialPlatforms.UserState,UnityEngine.Texture2D)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserProfile__ctor_mB9295F9F9EE52ED66A33B95F42BE00A06682250D (UserProfile_tDA4AC2655C2C32774702DDA257938A108AB4C537 * __this, String_t* ___name0, String_t* ___id1, bool ___friend2, int32_t ___state3, Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * ___image4, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::Add(!0)
@@ -2953,7 +2940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Leaderboard_get_loading_m7E20F3B94746139
 		L_0 = ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9(/*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = InterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(4 /* System.Boolean UnityEngine.SocialPlatforms.ISocialPlatform::GetLoading(UnityEngine.SocialPlatforms.ILeaderboard) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, __this);
+		L_1 = InterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(3 /* System.Boolean UnityEngine.SocialPlatforms.ISocialPlatform::GetLoading(UnityEngine.SocialPlatforms.ILeaderboard) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, __this);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3423,22 +3410,6 @@ IL_0020:
 		return L_4;
 	}
 }
-// System.Void UnityEngine.SocialPlatforms.Local::ShowLeaderboardUI()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Local_ShowLeaderboardUI_m0AD9E483514F7525F60CC444AA76FF75311FBC10 (Local_tC01F8D60BCDBAE27341421C85B095483AD1FE9BE * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral63B825085580CF7F50B31C8CDA66E3F2A35C0676);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral63B825085580CF7F50B31C8CDA66E3F2A35C0676, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Boolean UnityEngine.SocialPlatforms.Local::VerifyUser()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Local_VerifyUser_mCDE924381D08F6A3CF15EE8A5EB2EEAED43159D1 (Local_tC01F8D60BCDBAE27341421C85B095483AD1FE9BE * __this, const RuntimeMethod* method)
 {
@@ -3861,7 +3832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalUser_Authenticate_mEFEECF74551BD900
 		L_0 = ActivePlatform_get_Instance_m5FB1343B475512D548FE04A7C2BC3DCCAF694AA9(/*hidden argument*/NULL);
 		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_1 = ___callback0;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< RuntimeObject*, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * >::Invoke(3 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, __this, L_1);
+		InterfaceActionInvoker2< RuntimeObject*, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * >::Invoke(2 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::Authenticate(UnityEngine.SocialPlatforms.ILocalUser,System.Action`1<System.Boolean>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, __this, L_1);
 		return;
 	}
 }
@@ -4168,23 +4139,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ReportScore_m9D47693DE21BDF21D893
 		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_3 = ___callback2;
 		NullCheck(L_0);
 		InterfaceActionInvoker3< int64_t, String_t*, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * >::Invoke(1 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>) */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
-		return;
-	}
-}
-// System.Void UnityEngine.Social::ShowLeaderboardUI()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ShowLeaderboardUI_mDD136D499783509D4BB9D9DE756FC68295160EAA (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0;
-		L_0 = Social_get_Active_m74A08BB58636C0AC5934CAB46856765A271F842D(/*hidden argument*/NULL);
-		NullCheck(L_0);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void UnityEngine.SocialPlatforms.ISocialPlatform::ShowLeaderboardUI() */, ISocialPlatform_t1C068CBA4F0B5F2B2EBC76E64A1DEC7CBFBED92D_il2cpp_TypeInfo_var, L_0);
 		return;
 	}
 }
