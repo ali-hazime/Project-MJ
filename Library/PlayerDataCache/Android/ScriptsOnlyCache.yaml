@@ -46,6 +46,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -89,49 +92,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
+      Script: {instanceID: 730}
     - Class: 114
-      Script: {instanceID: 17940}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 18122}
+      Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 18190}
+      Script: {instanceID: 1874}
     - Class: 114
-      Script: {instanceID: 18392}
+      Script: {instanceID: 2096}
     - Class: 114
-      Script: {instanceID: 18590}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 18754}
+      Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 19000}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 19282}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 19350}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 19436}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 19568}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 19686}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 19876}
+      Script: {instanceID: 3636}
     - Class: 114
-      Script: {instanceID: 19880}
+      Script: {instanceID: 3640}
     - Class: 114
-      Script: {instanceID: 19894}
+      Script: {instanceID: 3654}
     - Class: 114
-      Script: {instanceID: 19980}
+      Script: {instanceID: 3742}
     - Class: 114
-      Script: {instanceID: 20116}
+      Script: {instanceID: 3880}
     - Class: 114
-      Script: {instanceID: 20388}
+      Script: {instanceID: 4160}
     - Class: 114
-      Script: {instanceID: 20474}
+      Script: {instanceID: 4248}
     - Class: 114
-      Script: {instanceID: 21386}
+      Script: {instanceID: 5204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,31 +183,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17940}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 17992}
+      Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 18132}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 18288}
+      Script: {instanceID: 1984}
     - Class: 114
-      Script: {instanceID: 18590}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 19000}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 19350}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 19436}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 19568}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 19686}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 21498}
+      Script: {instanceID: 5322}
     - Class: 114
-      Script: {instanceID: 21760}
+      Script: {instanceID: 5592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -830,7 +833,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 63da712230d9f8889325fd0acb37b230
+      Hash: c4801229e1e44d80735c2bacb794ddaf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
